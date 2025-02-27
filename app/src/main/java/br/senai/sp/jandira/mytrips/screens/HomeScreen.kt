@@ -133,22 +133,7 @@ fun HomeScreen(modifier: Modifier = Modifier){
                     }
 
                 )
-                Button(onClick = {},
-                    colors = ButtonDefaults.buttonColors(Color.Black),
-                   modifier = Modifier
-                       .align(Alignment.End)
-                       .padding(top = 45.dp)
-                       .width(120.dp)
-                       .height(60.dp),
-                              shape = RoundedCornerShape(
-                                  bottomStart = 10.dp,
-                                  bottomEnd = 10.dp,
-                                  topStart = 10.dp,
-                                  topEnd = 15.dp
-                              )
-                            ) {
-                    Text(text = stringResource(br.senai.sp.jandira.mytrips.R.string.signin)
-                    )
+
 
                 }
 
@@ -162,7 +147,7 @@ fun HomeScreen(modifier: Modifier = Modifier){
 
 
     }
-}
+
 
 @Preview
 @Composable
